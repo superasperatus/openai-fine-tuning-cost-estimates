@@ -51,4 +51,4 @@ Feel free to fork this repository and submit pull requests to contribute to the 
 Please ensure that you comply with the tiktoken library's licensing and usage guidelines. The cost estimate is indicative and based on publicly available pricing at the time of writing; actual costs may vary.
 
 ## Contact
-If you have any questions or feedback regarding this script, please open an issue in the GitHub repository.
+If you have any questions or feedback regarding this script, please open an issue in the repo.
