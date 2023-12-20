@@ -1,6 +1,6 @@
-# OpenAI Fine-tuning cost estimates
+# OpenAI Fine-tuning Cost Estimates
 
-This script `ft_cost_estimates.py` provides a utility to count the total number of tokens across all JSON objects in a JSON Lines file (JSONL). It then uses that count to estimate costs based on OpenAI fine-tuning pricing and number of epochs (3 default).
+This simple script `ft_cost_estimates.py` provides a utility to count the total number of tokens across all JSON objects in a JSON Lines file (JSONL). It then uses that count to estimate costs based on OpenAI fine-tuning pricing and number of epochs (3 default).
 
 It uses the `tiktoken` library for tokenization, which you should ensure is installed before using the script.
 
