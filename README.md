@@ -42,7 +42,9 @@ Total tokens across entire file: 123456
 Estimated costs for fine-tuning this jsonl is: $ X.XX
 ```
 
-The estimated costs are calculated based on the OpenAI Pricing as follows: (total_tokens / 1000) * 0.0080 * number_of_epochs.
+The estimated costs are calculated based on the OpenAI Pricing as follows: `(total_tokens / 1000) * 0.0080 * number_of_epochs`.
+
+OpenAI's fine-tuning costs are bound to change, please refer to their Pricing page for most up to date pricing at https://openai.com/pricing.
 
 ## Contributing
 Feel free to fork this repository and submit pull requests to contribute to the script's development.
