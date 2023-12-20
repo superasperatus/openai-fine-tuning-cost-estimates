@@ -25,8 +25,8 @@ Replace jsonl-to-estimate.jsonl with the path to your own JSONL file.
 The script defines a function `count_tokens_in_jsonl`, which processes a JSONL file and counts the number of tokens in each line. A summary of total tokens and estimated costs for fine-tuning is printed to the console.
 
 ## Function Parameters
-`jsonl_file_path`: Path to the JSONL file.
-`encoding_name`: The encoding to use for tokenization (default is 'cl100k_base').
+* `jsonl_file_path`: Path to the JSONL file.
+* `encoding_name`: The encoding to use for tokenization (default is 'cl100k_base').
 
 ### Returns
 The function returns the total number of tokens across all JSON objects in the file.
