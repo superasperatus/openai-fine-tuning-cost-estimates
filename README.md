@@ -1,6 +1,6 @@
-# Fine-tuning cost estimates
+# OpenAI Fine-tuning cost estimates
 
-This script `token_counter.py` provides a utility to count the total number of tokens across all JSON objects in a JSON Lines file (JSONL). It uses the `tiktoken` library for tokenization, which you should ensure is installed before using the script.
+This script `ft_cost_estimates.py` provides a utility to count the total number of tokens across all JSON objects in a JSON Lines file (JSONL). It uses the `tiktoken` library for tokenization, which you should ensure is installed before using the script.
 
 ## Installation
 
@@ -14,7 +14,7 @@ pip install tiktoken
 To use this script, simply call it with the path to your JSONL file as an argument:
 
 ```
-python token_counter.py jsonl-to-estimate.jsonl
+python ft_cost_estimates.py jsonl-to-estimate.jsonl
 ```
 
 Replace jsonl-to-estimate.jsonl with the path to your own JSONL file.
